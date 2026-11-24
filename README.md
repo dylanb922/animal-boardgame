@@ -11,6 +11,8 @@ An abstract animal-themed boardgame where two players, Amethyst and Tangerine, t
 * If a piece moves to a square that contains an enemy piece, it captures that piece by replacing it on the square and removing the captured piece from the board.
 * A piece cannot move to a square that contains a friendly piece.
 
+**Game Pieces:**
+
 | Name | Direction | Distance | Locomotion |
 |---|---|---|---|
 | okapi | orthogonal | 4 | sliding |
@@ -18,7 +20,9 @@ An abstract animal-themed boardgame where two players, Amethyst and Tangerine, t
 | kinkajou | diagonal | 3 | jumping |
 | cuttlefish | diagonal | 2 | sliding |
 
-**Starting position**: Tangerine player starts in Row 1, Amethyst player starts in Row 7. Beginning positions are shown below:
+**Starting position**: Tangerine player starts in Row 1, Amethyst player starts in Row 7. 
+
+Beginning positions are shown below:
 
 | okapi | wombat | kinkajou | cuttlefish |  kinkajou | wombat | okapi |
 |---|---|---|---|---|---|---|
